@@ -8,10 +8,10 @@
 
 require 'faker'
 
-# 50.times do
-#   dogsitter = Dogsitter.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
-# end
-# puts "50 promeneurs de chiens ont été générés"
+50.times do
+  dogsitter = Dogsitter.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
+end
+puts "50 promeneurs de chiens ont été générés"
 
 # Random dog name
 10.times do
